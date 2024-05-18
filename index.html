@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu-Tab</title>
+    <link rel="stylesheet" href="assets/font/fontello-e82d5dc1/css/fontello.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="bg-sky-100">
+    <main class="w-full 2xl:container mx-auto">
+        <footer class="w-full flex relative justify-end items-center">
+            <div class="group w-[20%] z-50 flex cursor-pointer justify-end fixed right-0 bottom-0">
+                <img class="lg:w-[180px] lg:h-[180px] w-[220px] h-[180px] rounded-[50%]" src="assets/img/11.jpg" alt="">
+                <ul
+                    class="group-hover:visible group-hover:opacity-[1] absolute top-0 lg:right-[60%] right-[110%] list-none *:text-orange-600 rotate-[18deg] translate-y-[-13px] hover:*:text-sky-600 transition-all duration-[.4s] invisible opacity-0">
+                    <li class="mb-[15px] translate-x-[10px]"><a
+                            href="https://www.instagram.com/fateme_mohamadiian.fed?igsh=YzVkODRmOTdmMw=="><i
+                                class="icon-instagram text-[30px]"></i></a></li>
+                    <li class="mb-[15px]"><a href="http://www.linkedin.com/in/fateme-mohamadian-dev0824"><i
+                                class="icon-linkedin-2 text-[30px]"></i></a></li>
+                    <li class="mb-[15px] translate-x-[20px]"><a href="https://github.com/fatemeMohamadian"><i
+                                class=" icon-github-squared text-[30px]"></i></a></li>
+                </ul>
+            </div>
+        </footer>
+        <section id="slide1" class="w-full mt-[50px] *:my-[25px] flex flex-wrap place-content-center">
+            <h2
+                class="capitalize w-full flex justify-center items-center text-6xl font-menu font-bold relative after:absolute  after:w-[110px] after:h-[8px] after:bg-orange-500 after:top-[80px] after:left-[50%] after:translate-x-[-50%] after:translate-y-[-50%]">
+                our menu</h2>
+        </section>
+        <section id="slide2" class="w-full flex-wrap flex place-content-center">
+            <div id="listmenu" class="w-full flex flex-wrap  justify-center items-center">
+                <ul id="list"
+                    class="lg:w-1/2 w-full flex flex-wrap justify-center *:my-[5px] lg:*:my-0  *:border-[2px]  *:border-orange-900 *:rounded-lg my-[15px] lg:*:mx-[10px] *:font-menu1 *:text-xl *:font-bold items-center *:list-none *:capitalize *:cursor-pointer *:h-[40px]">
+                    <li onclick="menu(0)"
+                        class="py-[10px] px-[10px] place-content-center bg-orange-600 text-white  transition-all duration-[.7s]">
+                        all</li>
+                    <li onclick="menu(1)"
+                        class="py-[10px] px-[10px] place-content-center text-orange-600  hover:bg-orange-900 hover:text-white transition-all duration-[.7s]">
+                        breakfast</li>
+                    <li onclick="menu(2)"
+                        class="py-[10px] px-[10px] place-content-center text-orange-600  hover:bg-orange-900 hover:text-white transition-all duration-[.7s]">
+                        lunch</li>
+                    <li onclick="menu(3)"
+                        class="py-[10px] px-[10px] place-content-center text-orange-600  hover:bg-orange-900 hover:text-white transition-all duration-[.7s]">
+                        shakes</li>
+                    <li onclick="menu(4)"
+                        class="py-[10px] px-[10px] place-content-center text-orange-600  hover:bg-orange-900 hover:text-white transition-all duration-[.7s]">
+                        dinner</li>
+                </ul>
+            </div>
+            <div id="listmenu1" class="w-full flex flex-wrap justify-center relative items-center mt-[50px] ">
+                <!-- start of All Section -->
+                <div id="all" class=" w-full flex flex-wrap justify-center absolute top-0 left-0 items-center">
+                    <figure class="lg:w-[40%] my-[10px] w-full lg:mx-[5px] flex flex-wrap justify-evenly items-center">
+                        <img class="lg:w-[40%] rounded-lg border-[5px] border-orange-800 w-full"
+                            src="assets/img/item-1.jpeg" alt="">
+                        <figcaption class="lg:w-1/2 w-full flex flex-wrap">
+                            <div
+                                class="w-full flex justify-between items-center relative after:absolute after:w-full after:h-[2px] *:py-[5px] after:bottom-0 after:left-0 after:bg-slate-400">
+                                <h4 class="font-menu1 font-bold text-lg">Buttermilk Pancakes</h4>
+                                <span class="font-menu1 font-bold text-xl text-orange-700">$15.99</span>
+                            </div>
+                            <p class="text-slate-500 font-menu1">I'm baby woke mlkshk wolf bitters live-edge blue
+                                bottle, hammock freegan copper mug whatever cold-pressed</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="lg:w-[40%] my-[10px] w-full lg:mx-[5px] flex flex-wrap justify-evenly items-center">
+                        <img class="lg:w-[40%] rounded-lg border-[5px] border-orange-800 w-full"
+                            src="assets/img/item-2.jpeg" alt="">
+                        <figcaption class="lg:w-1/2 w-full flex flex-wrap">
+                            <div
+                                class="w-full flex justify-between items-center relative after:absolute after:w-full after:h-[2px] *:py-[5px] after:bottom-0 after:left-0 after:bg-slate-400">
+                                <h4 class="font-menu1 font-bold text-lg">Diner Double</h4>
+                                <span class="font-menu1 font-bold text-xl text-orange-700">$13.99</span>
+                            </div>
+                            <p class="text-slate-500 font-menu1">vaporware iPhone mumblecore selvage raw denim slow-carb
+                                leggings gochujang helvetica man braid jianbing. Marfa thundercats</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="lg:w-[40%] my-[10px] w-full lg:mx-[5px] flex flex-wrap justify-evenly items-center">
+                        <img class="lg:w-[250px] lg:h-[160px] object-cover rounded-lg border-[5px] border-orange-800 w-full"
+                            src="assets/img/item-3.jpeg" alt="">
+                        <figcaption class="lg:w-1/2 w-full flex flex-wrap">
+                            <div
+                                class="w-full flex justify-between items-center relative after:absolute after:w-full after:h-[2px] *:py-[5px] after:bottom-0 after:left-0 after:bg-slate-400">
+                                <h4 class="font-menu1 font-bold text-lg">Godzilla Milkshake</h4>
+                                <span class="font-menu1 font-bold text-xl text-orange-700">$6.99</span>
+                            </div>
+                            <p class="text-slate-500 font-menu1">ombucha chillwave fanny pack 3 wolf moon street art
+                                photo booth before they sold out organic viral.</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="lg:w-[40%] my-[10px] w-full lg:mx-[5px] flex flex-wrap justify-evenly items-center">
+                        <img class="lg:w-[40%] rounded-lg border-[5px] border-orange-800 w-full"
+                            src="assets/img/item-4.jpeg" alt="">
+                        <figcaption class="lg:w-1/2 w-full flex flex-wrap">
+                            <div
+                                class="w-full flex justify-between items-center relative after:absolute after:w-full after:h-[2px] *:py-[5px] after:bottom-0 after:left-0 after:bg-slate-400">
+                                <h4 class="font-menu1 font-bold text-lg">Country Delight</h4>
+                                <span class="font-menu1 font-bold text-xl text-orange-700">$20.99</span>
+                            </div>
+                            <p class="text-slate-500 font-menu1">Shabby chic keffiyeh neutra snackwave pork belly
+                                shoreditch. Prism austin mlkshk truffaut.</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="lg:w-[40%] my-[10px] w-full lg:mx-[5px] flex flex-wrap justify-evenly items-center">
+                        <img class="lg:w-[40%] rounded-lg border-[5px] border-orange-800 w-full"
+                            src="assets/img/item-5.jpeg" alt="">
+                        <figcaption class="lg:w-1/2 w-full flex flex-wrap">
+                            <div
+                                class="w-full flex justify-between items-center relative after:absolute after:w-full after:h-[2px] *:py-[5px] after:bottom-0 after:left-0 after:bg-slate-400">
+                                <h4 class="font-menu1 font-bold text-lg">Egg Attack</h4>
+                                <span class="font-menu1 font-bold text-xl text-orange-700">$22.99</span>
+                            </div>
+                            <p class="text-slate-500 font-menu1">franzen vegan pabst bicycle rights kickstarter
+                                pinterest meditation farm-to-table 90's pop-up.</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="lg:w-[40%] my-[10px] w-full lg:mx-[5px] flex flex-wrap justify-evenly items-center">
+                        <img class="lg:w-[40%] rounded-lg border-[5px] border-orange-800 w-full"
+                            src="assets/img/item-6.jpeg" alt="">
+                        <figcaption class="lg:w-1/2 w-full flex flex-wrap">
+                            <div
+                                class="w-full flex justify-between items-center relative after:absolute after:w-full after:h-[2px] *:py-[5px] after:bottom-0 after:left-0 after:bg-slate-400">
+                                <h4 class="font-menu1 font-bold text-lg">Oreo Dream</h4>
+                                <span class="font-menu1 font-bold text-xl text-orange-700">$18.99</span>
+                            </div>
+                            <p class="text-slate-500 font-menu1">Portland chicharrones ethical edison bulb, palo santo
+                                craft beer chia heirloom iPhone everyday.</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="lg:w-[40%] my-[10px] w-full lg:mx-[5px] flex flex-wrap justify-evenly items-center">
+                        <img class="lg:w-[40%] rounded-lg border-[5px] border-orange-800 w-full"
+                            src="assets/img/item-7.jpeg" alt="">
+                        <figcaption class="lg:w-1/2 w-full flex flex-wrap">
+                            <div
+                                class="w-full flex justify-between items-center relative after:absolute after:w-full after:h-[2px] *:py-[5px] after:bottom-0 after:left-0 after:bg-slate-400">
+                                <h4 class="font-menu1 font-bold text-lg">Bacon Overflow</h4>
+                                <span class="font-menu1 font-bold text-xl text-orange-700">$8.99</span>
+                            </div>
+                            <p class="text-slate-500 font-menu1">carry jianbing normcore freegan. Viral single-origin
+                                coffee live-edge, pork belly cloud bread iceland put a bird.</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="lg:w-[40%] my-[10px] w-full lg:mx-[5px] flex flex-wrap justify-evenly items-center">
+                        <img class="lg:w-[40%] rounded-lg border-[5px] border-orange-800 w-full"
+                            src="assets/img/item-8.jpeg" alt="">
+                        <figcaption class="lg:w-1/2 w-full flex flex-wrap">
+                            <div
+                                class="w-full flex justify-between items-center relative after:absolute after:w-full after:h-[2px] *:py-[5px] after:bottom-0 after:left-0 after:bg-slate-400">
+                                <h4 class="font-menu1 font-bold text-lg">American Classic</h4>
+                                <span class="font-menu1 font-bold text-xl text-orange-700">$12.99</span>
+                            </div>
+                            <p class="text-slate-500 font-menu1">on it tumblr kickstarter thundercats migas everyday
+                                carry squid palo santo leggings. Food truck truffaut.</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="lg:w-[40%] my-[10px] w-full lg:mx-[5px] flex flex-wrap justify-evenly items-center">
+                        <img class="lg:w-[40%] rounded-lg border-[5px] border-orange-800 w-full"
+                            src="assets/img/item-9.jpeg" alt="">
+                        <figcaption class="lg:w-1/2 w-full flex flex-wrap">
+                            <div
+                                class="w-full flex justify-between items-center relative after:absolute after:w-full after:h-[2px] *:py-[5px] after:bottom-0 after:left-0 after:bg-slate-400">
+                                <h4 class="font-menu1 font-bold text-lg">Quarantine Buddy</h4>
+                                <span class="font-menu1 font-bold text-xl text-orange-700">$16.99</span>
+                            </div>
+                            <p class="text-slate-500 font-menu1">skateboard fam synth authentic semiotics. Live-edge
+                                lyft af, edison bulb yuccie crucifix microdosing.</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="lg:w-[40%] my-[10px] w-full lg:mx-[5px] flex flex-wrap justify-evenly items-center">
+                        <img class="lg:w-[40%] rounded-lg border-[5px] border-orange-800 w-full"
+                            src="assets/img/item-10.jpeg" alt="">
+                        <figcaption class="lg:w-1/2 w-full flex flex-wrap">
+                            <div
+                                class="w-full flex justify-between items-center relative after:absolute after:w-full after:h-[2px] *:py-[5px] after:bottom-0 after:left-0 after:bg-slate-400">
+                                <h4 class="font-menu1 font-bold text-lg">Steak Dinner</h4>
+                                <span class="font-menu1 font-bold text-xl text-orange-700">$39.99</span>
+                            </div>
+                            <p class="text-slate-500 font-menu1">skateboard fam synth authentic semiotics. Live-edge
+                                lyft af, edison bulb yuccie crucifix microdosing.</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- end of section All -->
+
+                <!-- start of breakfast -->
+                <div id="breakfast" class=" w-full  top-0 left-0 hidden flex-wrap justify-center absolute items-center">
+                    <figure class="lg:w-[40%] my-[10px] w-full lg:mx-[5px] flex flex-wrap justify-evenly items-center">
+                        <img class="lg:w-[40%] rounded-lg border-[5px] border-orange-800 w-full"
+                            src="assets/img/item-1.jpeg" alt="">
+                        <figcaption class="lg:w-1/2 w-full flex flex-wrap">
+                            <div
+                                class="w-full flex justify-between items-center relative after:absolute after:w-full after:h-[2px] *:py-[5px] after:bottom-0 after:left-0 after:bg-slate-400">
+                                <h4 class="font-menu1 font-bold text-lg">Buttermilk Pancakes</h4>
+                                <span class="font-menu1 font-bold text-xl text-orange-700">$15.99</span>
+                            </div>
+                            <p class="text-slate-500 font-menu1">I'm baby woke mlkshk wolf bitters live-edge blue
+                                bottle, hammock freegan copper mug whatever cold-pressed</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="lg:w-[40%] my-[10px] w-full lg:mx-[5px] flex flex-wrap justify-evenly items-center">
+                        <img class="lg:w-[40%] rounded-lg border-[5px] border-orange-800 w-full"
+                            src="assets/img/item-4.jpeg" alt="">
+                        <figcaption class="lg:w-1/2 w-full flex flex-wrap">
+                            <div
+                                class="w-full flex justify-between items-center relative after:absolute after:w-full after:h-[2px] *:py-[5px] after:bottom-0 after:left-0 after:bg-slate-400">
+                                <h4 class="font-menu1 font-bold text-lg">Country Delight</h4>
+                                <span class="font-menu1 font-bold text-xl text-orange-700">$20.99</span>
+                            </div>
+                            <p class="text-slate-500 font-menu1">Shabby chic keffiyeh neutra snackwave pork belly
+                                shoreditch. Prism austin mlkshk truffaut.</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="lg:w-[40%] my-[10px] w-full lg:mx-[5px] flex flex-wrap justify-evenly items-center">
+                        <img class="lg:w-[40%] rounded-lg border-[5px] border-orange-800 w-full"
+                            src="assets/img/item-7.jpeg" alt="">
+                        <figcaption class="lg:w-1/2 w-full flex flex-wrap">
+                            <div
+                                class="w-full flex justify-between items-center relative after:absolute after:w-full after:h-[2px] *:py-[5px] after:bottom-0 after:left-0 after:bg-slate-400">
+                                <h4 class="font-menu1 font-bold text-lg">Bacon Overflow</h4>
+                                <span class="font-menu1 font-bold text-xl text-orange-700">$8.99</span>
+                            </div>
+                            <p class="text-slate-500 font-menu1">carry jianbing normcore freegan. Viral single-origin
+                                coffee live-edge, pork belly cloud bread iceland put a bird.</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="lg:w-[40%] my-[10px] w-full lg:mx-[5px] flex flex-wrap justify-evenly items-center">
+                        <img class="lg:w-[40%] rounded-lg w-full" src="" alt="">
+                        <figcaption class="lg:w-1/2 w-full flex flex-wrap">
+                            <div class="w-full flex justify-between items-center ">
+                                <h4 class="font-menu1 font-bold text-lg"></h4>
+                                <span class="font-menu1 font-bold text-xl text-orange-700"></span>
+                            </div>
+                            <p class="text-slate-500 font-menu1"></p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- end of breakfast -->
+
+                <!-- start of lunch -->
+                <div id="lunch" class=" w-full  hidden flex-wrap justify-center absolute top-0 left-0 items-center">
+                    <figure class="lg:w-[40%] my-[10px] w-full lg:mx-[5px] flex flex-wrap justify-evenly items-center">
+                        <img class="lg:w-[40%] rounded-lg border-[5px] border-orange-800 w-full"
+                            src="assets/img/item-2.jpeg" alt="">
+                        <figcaption class="lg:w-1/2 w-full flex flex-wrap">
+                            <div
+                                class="w-full flex justify-between items-center relative after:absolute after:w-full after:h-[2px] *:py-[5px] after:bottom-0 after:left-0 after:bg-slate-400">
+                                <h4 class="font-menu1 font-bold text-lg">Diner Double</h4>
+                                <span class="font-menu1 font-bold text-xl text-orange-700">$13.99</span>
+                            </div>
+                            <p class="text-slate-500 font-menu1">vaporware iPhone mumblecore selvage raw denim slow-carb
+                                leggings gochujang helvetica man braid jianbing. Marfa thundercats</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="lg:w-[40%] my-[10px] w-full lg:mx-[5px] flex flex-wrap justify-evenly items-center">
+                        <img class="lg:w-[40%] rounded-lg border-[5px] border-orange-800 w-full"
+                            src="assets/img/item-5.jpeg" alt="">
+                        <figcaption class="lg:w-1/2 w-full flex flex-wrap">
+                            <div
+                                class="w-full flex justify-between items-center relative after:absolute after:w-full after:h-[2px] *:py-[5px] after:bottom-0 after:left-0 after:bg-slate-400">
+                                <h4 class="font-menu1 font-bold text-lg">Egg Attack</h4>
+                                <span class="font-menu1 font-bold text-xl text-orange-700">$22.99</span>
+                            </div>
+                            <p class="text-slate-500 font-menu1">franzen vegan pabst bicycle rights kickstarter
+                                pinterest meditation farm-to-table 90's pop-up.</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="lg:w-[40%] my-[10px] w-full lg:mx-[5px] flex flex-wrap justify-evenly items-center">
+                        <img class="lg:w-[40%] rounded-lg border-[5px] border-orange-800 w-full"
+                            src="assets/img/item-8.jpeg" alt="">
+                        <figcaption class="lg:w-1/2 w-full flex flex-wrap">
+                            <div
+                                class="w-full flex justify-between items-center relative after:absolute after:w-full after:h-[2px] *:py-[5px] after:bottom-0 after:left-0 after:bg-slate-400">
+                                <h4 class="font-menu1 font-bold text-lg">American Classic</h4>
+                                <span class="font-menu1 font-bold text-xl text-orange-700">$12.99</span>
+                            </div>
+                            <p class="text-slate-500 font-menu1">on it tumblr kickstarter thundercats migas everyday
+                                carry squid palo santo leggings. Food truck truffaut.</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="lg:w-[40%] my-[10px] w-full lg:mx-[5px] flex flex-wrap justify-evenly items-center">
+                        <img class="lg:w-[40%] rounded-lg w-full" src="" alt="">
+                        <figcaption class="lg:w-1/2 w-full flex flex-wrap">
+                            <div class="w-full flex justify-between items-center ">
+                                <h4 class="font-menu1 font-bold text-lg"></h4>
+                                <span class="font-menu1 font-bold text-xl text-orange-700"></span>
+                            </div>
+                            <p class="text-slate-500 font-menu1"></p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- end of lunch -->
+
+                <!-- start of shakes -->
+                <div id="shakes" class=" w-full hidden  flex-wrap justify-center absolute top-0 left-0 items-center">
+                    <figure class="lg:w-[40%] my-[10px] w-full lg:mx-[5px] flex flex-wrap justify-evenly items-center">
+                        <img class="lg:w-[250px] lg:h-[160px] object-cover rounded-lg border-[5px] border-orange-800 w-full"
+                            src="assets/img/item-3.jpeg" alt="">
+                        <figcaption class="lg:w-1/2 w-full flex flex-wrap">
+                            <div
+                                class="w-full flex justify-between items-center relative after:absolute after:w-full after:h-[2px] *:py-[5px] after:bottom-0 after:left-0 after:bg-slate-400">
+                                <h4 class="font-menu1 font-bold text-lg">Godzilla Milkshake</h4>
+                                <span class="font-menu1 font-bold text-xl text-orange-700">$6.99</span>
+                            </div>
+                            <p class="text-slate-500 font-menu1">ombucha chillwave fanny pack 3 wolf moon street art
+                                photo booth before they sold out organic viral.</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="lg:w-[40%] my-[10px] w-full lg:mx-[5px] flex flex-wrap justify-evenly items-center">
+                        <img class="lg:w-[40%] rounded-lg border-[5px] border-orange-800 w-full"
+                            src="assets/img/item-6.jpeg" alt="">
+                        <figcaption class="lg:w-1/2 w-full flex flex-wrap">
+                            <div
+                                class="w-full flex justify-between items-center relative after:absolute after:w-full after:h-[2px] *:py-[5px] after:bottom-0 after:left-0 after:bg-slate-400">
+                                <h4 class="font-menu1 font-bold text-lg">Oreo Dream</h4>
+                                <span class="font-menu1 font-bold text-xl text-orange-700">$18.99</span>
+                            </div>
+                            <p class="text-slate-500 font-menu1">Portland chicharrones ethical edison bulb, palo santo
+                                craft beer chia heirloom iPhone everyday.</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="lg:w-[40%] my-[10px] w-full lg:mx-[5px] flex flex-wrap justify-evenly items-center">
+                        <img class="lg:w-[40%] rounded-lg border-[5px] border-orange-800 w-full"
+                            src="assets/img/item-9.jpeg" alt="">
+                        <figcaption class="lg:w-1/2 w-full flex flex-wrap">
+                            <div
+                                class="w-full flex justify-between items-center relative after:absolute after:w-full after:h-[2px] *:py-[5px] after:bottom-0 after:left-0 after:bg-slate-400">
+                                <h4 class="font-menu1 font-bold text-lg">Quarantine Buddy</h4>
+                                <span class="font-menu1 font-bold text-xl text-orange-700">$16.99</span>
+                            </div>
+                            <p class="text-slate-500 font-menu1">skateboard fam synth authentic semiotics. Live-edge
+                                lyft af, edison bulb yuccie crucifix microdosing.</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="lg:w-[40%] my-[10px] w-full lg:mx-[5px] flex flex-wrap justify-evenly items-center">
+                        <img class="lg:w-[40%] rounded-lg w-full" src="" alt="">
+                        <figcaption class="lg:w-1/2 w-full flex flex-wrap">
+                            <div class="w-full flex justify-between items-center ">
+                                <h4 class="font-menu1 font-bold text-lg"></h4>
+                                <span class="font-menu1 font-bold text-xl text-orange-700"></span>
+                            </div>
+                            <p class="text-slate-500 font-menu1"></p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <!-- end of shakes -->
+
+                <!-- start of dinner -->
+                <div id="dinner" class=" w-full hidden flex-wrap justify-center absolute top-0 left-0 items-center">
+                    <figure class="lg:w-[40%] my-[10px] w-full lg:mx-[5px] flex flex-wrap justify-evenly items-center">
+                        <img class="lg:w-[40%] rounded-lg border-[5px] border-orange-800 w-full"
+                            src="assets/img/item-10.jpeg" alt="">
+                        <figcaption class="lg:w-1/2 w-full flex flex-wrap">
+                            <div
+                                class="w-full flex justify-between items-center relative after:absolute after:w-full after:h-[2px] *:py-[5px] after:bottom-0 after:left-0 after:bg-slate-400">
+                                <h4 class="font-menu1 font-bold text-lg">Steak Dinner</h4>
+                                <span class="font-menu1 font-bold text-xl text-orange-700">$39.99</span>
+                            </div>
+                            <p class="text-slate-500 font-menu1">skateboard fam synth authentic semiotics. Live-edge
+                                lyft af, edison bulb yuccie crucifix microdosing.</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="lg:w-[40%] my-[10px] w-full lg:mx-[5px] flex flex-wrap justify-evenly items-center">
+                        <img class="lg:w-[40%] rounded-lg w-full" src="" alt="">
+                        <figcaption class="lg:w-1/2 w-full flex flex-wrap">
+                            <div class="w-full flex justify-between items-center ">
+                                <h4 class="font-menu1 font-bold text-lg"></h4>
+                                <span class="font-menu1 font-bold text-xl text-orange-700"></span>
+                            </div>
+                            <p class="text-slate-500 font-menu1"></p>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="assets/js/master.js"></script>
+</body>
+
+</html>
