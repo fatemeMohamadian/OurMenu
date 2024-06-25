@@ -789,6 +789,10 @@ video {
   padding-bottom: 10px;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .font-menu {
   font-family: menu;
 }
@@ -884,14 +888,18 @@ video {
   font-family: 'menu';
 
   src: url('../font/Merriweather-Bold.ttf');
+}
 
-  font-family: 'menu1';
-
-  src: url('../font/Merriweather-Regular.ttf');
-
+@font-face {
   font-family: 'menu2';
 
   src: url('../font/Merriweather-Light.ttf');
+}
+
+@font-face {
+  font-family: 'menu1';
+
+  src: url('../font/Merriweather-Regular.ttf');
 }
 
 @media (min-width: 1536px) {
